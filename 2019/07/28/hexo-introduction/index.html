@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="localhost:4000">
   <title>hexo introduction | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli hexo init &amp;lt;folder&amp;gt;     ini">
+  <meta name="description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli  ��the install file is stored in">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo introduction">
 <meta property="og:url" content="localhost:4000/2019/07/28/hexo-introduction/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli hexo init &amp;lt;folder&amp;gt;     ini">
+<meta property="og:description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli  ��the install file is stored in">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-28T10:17:28.464Z">
+<meta property="og:updated_time" content="2019-07-29T12:13:39.309Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo introduction">
-<meta name="twitter:description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli hexo init &amp;lt;folder&amp;gt;     ini">
+<meta name="twitter:description" content="hexoA tool to make your blog as static html and push it to server.hexo installUse npm to install hexo.Node.js and Git are needed. 1.install hexonpm install -g hexo-cli  ��the install file is stored in">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -175,7 +175,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><h2 id="A-tool-to-make-your-blog-as-static-html-and-push-it-to-server"><a href="#A-tool-to-make-your-blog-as-static-html-and-push-it-to-server" class="headerlink" title="A tool to make your blog as static html and push it to server."></a>A tool to make your blog as static html and push it to server.</h2><h1 id="hexo-install"><a href="#hexo-install" class="headerlink" title="hexo install"></a>hexo install</h1><p>Use npm to install hexo.<br><strong>Node.js</strong> <strong>and</strong> <strong>Git</strong> <strong>are</strong> <strong>needed.</strong></p>
-<h2 id="1-install-hexo"><a href="#1-install-hexo" class="headerlink" title="1.install hexo"></a>1.install hexo</h2><pre><code>npm install -g hexo-cli
+<h2 id="1-install-hexo"><a href="#1-install-hexo" class="headerlink" title="1.install hexo"></a>1.install hexo</h2><pre><code>npm install -g hexo-cli  ��the install file is stored in cache??��
 hexo init &lt;folder&gt;
     initial the hexo in the folder.
 cd &lt;folder&gt;
@@ -186,13 +186,15 @@ source
     _drafts
     _posts
 themes</code></pre><h2 id="3-hexo-command"><a href="#3-hexo-command" class="headerlink" title="3.hexo command"></a>3.hexo command</h2><pre><code>hexo generate / hexo g  -  generate static html with blog file
-hexo n &quot;blog_name&quot;  -  create a new blog
+hexo n &quot;blog_name&quot;  -  create a new blog written by markdown
 hexo clean  -  clean cache, usually follow by: hexo g
 hexo server / hexo s  -  start the server
 
 hexo d  -  push the hexo file to remote github</code></pre><h2 id="4-connect-to-the-remote-github"><a href="#4-connect-to-the-remote-github" class="headerlink" title="4.connect to the remote github"></a>4.connect to the remote github</h2><pre><code>first create a new repo in github.com
 setting new repo as public for free. private type need github pro account 
 
+install the git connect tool for hexo
+    npm install hexo-deployer-git --save
 configure the _config.yml
 in the end of the _config.yml is the deploy session
 setting:
